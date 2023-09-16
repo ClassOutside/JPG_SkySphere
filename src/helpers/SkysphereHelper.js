@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js';
 
 export const setSkySphere_JPG = (scene, imagePath) => {
   let textureLoader = new THREE.TextureLoader();
